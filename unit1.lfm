@@ -1,10 +1,10 @@
 object Form1: TForm1
-  Left = 577
+  Left = 433
   Height = 235
-  Top = 301
+  Top = 206
   Width = 374
   BorderStyle = bsSingle
-  Caption = 'Form1'
+  Caption = 'Калькулятор'
   ClientHeight = 235
   ClientWidth = 374
   Position = poDesktopCenter
@@ -46,6 +46,7 @@ object Form1: TForm1
     Top = 24
     Width = 107
     Caption = 'Сумма'
+    OnClick = Button1Click
     TabOrder = 3
   end
   object Button2: TButton
@@ -54,6 +55,7 @@ object Form1: TForm1
     Top = 24
     Width = 107
     Caption = 'Разность'
+    OnClick = Button2Click
     TabOrder = 4
   end
   object Button3: TButton
@@ -62,6 +64,7 @@ object Form1: TForm1
     Top = 64
     Width = 107
     Caption = 'Произведение'
+    OnClick = Button3Click
     TabOrder = 5
   end
   object Button4: TButton
@@ -70,6 +73,7 @@ object Form1: TForm1
     Top = 62
     Width = 107
     Caption = 'Частное'
+    OnClick = Button4Click
     TabOrder = 6
   end
   object Button5: TButton
@@ -78,6 +82,7 @@ object Form1: TForm1
     Top = 104
     Width = 227
     Caption = 'Процент'
+    OnClick = Button5Click
     TabOrder = 7
   end
   object Button6: TButton
@@ -86,6 +91,7 @@ object Form1: TForm1
     Top = 136
     Width = 227
     Caption = 'Очистить'
+    OnClick = Button6Click
     TabOrder = 8
   end
   object Button7: TButton
@@ -94,6 +100,7 @@ object Form1: TForm1
     Top = 168
     Width = 347
     Caption = 'Об авторе'
+    OnClick = Button7Click
     TabOrder = 9
   end
   object Button8: TButton
@@ -102,6 +109,7 @@ object Form1: TForm1
     Top = 200
     Width = 347
     Caption = 'Выход'
+    OnClick = Button8Click
     TabOrder = 10
   end
 end

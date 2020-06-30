@@ -1,0 +1,32 @@
+object Form2: TForm2
+  Left = 528
+  Height = 74
+  Top = 278
+  Width = 348
+  BorderStyle = bsSingle
+  Caption = 'Form2'
+  ClientHeight = 74
+  ClientWidth = 348
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 128
+    Height = 25
+    Top = 0
+    Width = 92
+    Caption = 'Об Авторе'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 25
+    Top = 32
+    Width = 314
+    Caption = 'Истомина Валерия Группа ИР 19-30'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+end
